@@ -181,10 +181,10 @@ function App() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="text-white font-bold text-lg mb-4">About Us</h3>
+              <h3 className="text-white font-bold text-lg mb-4">Chi siamo</h3>
               <p className="text-gray-400">
-                Boteguita brings the perfect blend of modern sophistication and tropical charm to your evening.
-                Join us for craft cocktails, delicious bites, and unforgettable moments.
+                Boteguita porta la perfetta miscela di raffinatezza moderna e fascino tropicale per la vostra serata.
+                Unitevi a noi per cocktail artigianali, deliziosi spuntini e momenti indimenticabili.
               </p>
             </div>
             <div>
