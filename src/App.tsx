@@ -18,7 +18,7 @@ function Home() {
         }}
         data-aos="fade-down"
       >
-        <div className="text-center z-10 px-4">
+        <div className="text-center z-10 px-4 overflow-x-hidden">
           <h1 className="text-6xl md:text-8xl font-bold mb-4">Boteguita</h1>
           <p className="text-xl md:text-2xl italic">Dove la modernità incontra il tropicale</p>
         </div>
