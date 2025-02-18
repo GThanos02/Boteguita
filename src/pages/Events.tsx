@@ -15,8 +15,8 @@ export default function Events() {
         data-aos="fade-down"
       >
         <div className="text-center z-10">
-          <h1 className="text-5xl font-bold mb-4">Events & Entertainment</h1>
-          <p className="text-xl">Join us for special nights and unforgettable moments</p>
+          <h1 className="text-5xl font-bold mb-4">Eventi e Intrattenimento</h1>
+          <p className="text-xl">Unisciti a noi per notti speciali e momenti indimenticabili</p>
         </div>
       </div>
 
@@ -27,7 +27,7 @@ export default function Events() {
             className="text-4xl font-bold mb-12 text-center"
             data-aos="fade-up"
           >
-            Weekly Events
+            Eventi Settimanali
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -77,11 +77,11 @@ export default function Events() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right">
-              <h2 className="text-4xl font-bold mb-6">Host Your Private Event</h2>
+              <h2 className="text-4xl font-bold mb-6">Organizza il tuo evento privato</h2>
               <p className="text-lg text-gray-300 mb-8">
-                Whether you're planning a corporate event, birthday celebration, or special occasion,
-                our venue offers the perfect blend of atmosphere and service. Our team will work
-                with you to create a memorable experience tailored to your needs.
+                Se state progettando un evento aziendale, una celebrazione di compleanno, o un'occasione speciale,
+                il nostro luogo offre la miscela perfetta di atmosfera e servizio. Il nostro team lavorerà
+                con voi per creare un'esperienza indimenticabile su misura per le vostre esigenze.
               </p>
               <ul className="space-y-4">
                 {[
