@@ -9,14 +9,14 @@ export default function Menu() {
           className="text-5xl font-bold text-center mb-16"
           data-aos="fade-down"
         >
-          Our Menu
+          Il nostro Menù
         </h1>
 
         {/* Drinks Section */}
         <section className="mb-20" data-aos="fade-up">
           <div className="flex items-center justify-center gap-4 mb-8">
             <Wine className="w-8 h-8 text-[#e6b17e]" />
-            <h2 className="text-3xl font-bold">Signature Cocktails</h2>
+            <h2 className="text-3xl font-bold">Cocktail d'Autore</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             {[
@@ -74,7 +74,7 @@ export default function Menu() {
         <section data-aos="fade-up">
           <div className="flex items-center justify-center gap-4 mb-8">
             <Coffee className="w-8 h-8 text-[#e6b17e]" />
-            <h2 className="text-3xl font-bold">Coffee & Tea</h2>
+            <h2 className="text-3xl font-bold">Caffè & Tè</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             {[
