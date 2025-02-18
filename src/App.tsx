@@ -20,7 +20,7 @@ function Home() {
       >
         <div className="text-center z-10 px-4">
           <h1 className="text-6xl md:text-8xl font-bold mb-4">Boteguita</h1>
-          <p className="text-xl md:text-2xl italic">Where modern meets tropical</p>
+          <p className="text-xl md:text-2xl italic">Dove la modernità incontra il tropicale</p>
         </div>
       </div>
 
@@ -28,11 +28,11 @@ function Home() {
       <section className="py-20 px-6 md:px-12 bg-[#222]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div data-aos="fade-right">
-            <h2 className="text-4xl font-bold mb-6">Welcome to Boteguita</h2>
+            <h2 className="text-4xl font-bold mb-6">Benvenuti al Boteguita</h2>
             <p className="text-lg text-gray-300 mb-6">
-              Step into a world where modern elegance meets tropical charm. Our lounge bar offers 
-              a perfect blend of sophistication and relaxation, creating an ideal atmosphere for 
-              both intimate conversations and social gatherings.
+              Entrate in un mondo dove l'eleganza moderna incontra il fascino tropicale. Il nostro lounge bar offre 
+              una perfetta miscela di raffinatezza e relax, creando un'atmosfera ideale per 
+              sia conversazioni intime e incontri sociali.
             </p>
             <div className="flex gap-6">
               <div className="flex items-center gap-2">
@@ -41,7 +41,7 @@ function Home() {
               </div>
               <div className="flex items-center gap-2">
                 <Wine className="w-6 h-6 text-[#e6b17e]" />
-                <span>Craft Cocktails</span>
+                <span>Cocktail Artigianali</span>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center justify-center gap-4 mb-12">
             <Camera className="w-8 h-8 text-[#e6b17e]" />
-            <h2 className="text-4xl font-bold text-center">Our Atmosphere</h2>
+            <h2 className="text-4xl font-bold text-center">La Nostra Atmosfera</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
@@ -127,7 +127,7 @@ function Home() {
             className="text-4xl font-bold mb-12 text-center"
             data-aos="fade-down"
           >
-            Visit Us
+           Visitaci
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div 
@@ -136,10 +136,10 @@ function Home() {
               data-aos-delay="0"
             >
               <Clock className="w-8 h-8 mx-auto mb-4 text-[#e6b17e]" />
-              <h3 className="text-xl font-bold mb-4">Hours</h3>
-              <p>Tuesday - Thursday: 5PM - 1AM</p>
-              <p>Friday - Saturday: 5PM - 2AM</p>
-              <p>Sunday: 4PM - 12AM</p>
+              <h3 className="text-xl font-bold mb-4">Orario</h3>
+              <p>Martedì - giovedì: ore 17.00 - 1.00</p>
+              <p>Venerdì - sabato: ore 17.00 - 2.00</p>
+              <p>Domenica: ore 16.00 - 00.00</p>
             </div>
             <div 
               className="bg-[#2a2a2a] p-8 rounded-lg text-center"
@@ -148,8 +148,8 @@ function Home() {
             >
               <MapPin className="w-8 h-8 mx-auto mb-4 text-[#e6b17e]" />
               <h3 className="text-xl font-bold mb-4">Location</h3>
-              <p>123 Tropical Avenue</p>
-              <p>Paradise City, PC 12345</p>
+              <p>123 Tropical </p>
+              <p>Paradise City, Favara 12345</p>
             </div>
             <div 
               className="bg-[#2a2a2a] p-8 rounded-lg text-center"
@@ -157,8 +157,8 @@ function Home() {
               data-aos-delay="200"
             >
               <Phone className="w-8 h-8 mx-auto mb-4 text-[#e6b17e]" />
-              <h3 className="text-xl font-bold mb-4">Contact</h3>
-              <p>Phone: (555) 123-4567</p>
+              <h3 className="text-xl font-bold mb-4">Contattaci</h3>
+              <p>Telefono: +39 0123456789</p>
               <p>Email: hello@boteguita.com</p>
             </div>
           </div>
@@ -188,30 +188,30 @@ function App() {
               </p>
             </div>
             <div>
-              <h3 className="text-white font-bold text-lg mb-4">Contact</h3>
+              <h3 className="text-white font-bold text-lg mb-4">Contatti</h3>
               <div className="space-y-2">
                 <p className="text-gray-400 flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> (555) 123-4567
+                  <Phone className="w-4 h-4" /> +39 0123456789
                 </p>
                 <p className="text-gray-400 flex items-center gap-2">
                   <Mail className="w-4 h-4" /> hello@boteguita.com
                 </p>
                 <p className="text-gray-400 flex items-center gap-2">
-                  <MapPin className="w-4 h-4" /> 123 Tropical Avenue
+                  <MapPin className="w-4 h-4" /> 123 Tropical 
                 </p>
               </div>
             </div>
             <div>
-              <h3 className="text-white font-bold text-lg mb-4">Hours</h3>
+              <h3 className="text-white font-bold text-lg mb-4">Orari</h3>
               <div className="space-y-2 text-gray-400">
-                <p>Tuesday - Thursday: 5PM - 1AM</p>
-                <p>Friday - Saturday: 5PM - 2AM</p>
-                <p>Sunday: 4PM - 12AM</p>
-                <p>Monday: Closed</p>
+                <p>Martedì - Ggiovedì: ore 17.00 - 1.00</p>
+                <p>Venerdì - Sabato: ore 17.00 - 2.00</p>
+                <p>Domenica: ore 16.00 - 00.00</p>
+                <p>Lunedì: Chiuso</p>
               </div>
             </div>
             <div>
-              <h3 className="text-white font-bold text-lg mb-4">Follow Us</h3>
+              <h3 className="text-white font-bold text-lg mb-4">Seguici sui social</h3>
               <div className="flex gap-4">
                 <a href="#" className="text-gray-400 hover:text-[#e6b17e] transition-colors">
                   <Instagram className="w-6 h-6" />
