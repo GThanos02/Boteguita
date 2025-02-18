@@ -34,7 +34,7 @@ export default function Navbar() {
                   ${isActive ? 'text-[#e6b17e]' : ''}`
                 }
               >
-                Menu
+                Menù
               </NavLink>
               <NavLink 
                 to="/events"
@@ -43,7 +43,7 @@ export default function Navbar() {
                   ${isActive ? 'text-[#e6b17e]' : ''}`
                 }
               >
-                Events
+                Eventi
               </NavLink>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function Navbar() {
               }
               onClick={() => setIsOpen(false)}
             >
-              Menu
+              Menù
             </NavLink>
             <NavLink
               to="/events"
@@ -91,7 +91,7 @@ export default function Navbar() {
               }
               onClick={() => setIsOpen(false)}
             >
-              Events
+              Eventi
             </NavLink>
           </div>
         </div>
